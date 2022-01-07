@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@+id/nav_YourAdds"
+        android:icon="@drawable/ic_baseline_folder_special_24"
+        android:title="Your adds"/>
+
+    <item
+        android:id="@+id/nav_about_us"
+        android:icon="@drawable/ic_baseline_assignment_24"
+        android:title="@string/about_us"/>
+
+    <item
+        android:id="@+id/nav_faqs"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="@string/faqs"/>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"/>
+
+    </group>
+
+    <item android:title="@string/profile">
+
+
+        <menu>
+            <group>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="@string/logout"/>
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <group>
+            <item
+                android:id="@+id/nav_Share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share"/>
+
+            <item
+                android:id="@+id/nav_RateUs"
+                android:icon="@drawable/ic_baseline_rate_review_24"
+                android:title="@string/rate_us"/>
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
